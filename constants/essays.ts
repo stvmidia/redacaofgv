@@ -1,0 +1,273 @@
+
+import { Essay } from '../types';
+
+export const essays: Essay[] = [
+  {
+    id: 1,
+    question: "Discorra sobre a diferença entre transparência ativa e passiva, conforme a Lei de Acesso à Informação (Lei nº 12.527/2011), e explique o papel do jornalista da ALE-RO na garantia de ambas.",
+    modelAnswer: `A Lei de Acesso à Informação (LAI)¹, pilar da comunicação pública, estabelece duas formas de transparência: a ativa e a passiva. A **transparência passiva** é a obrigação do órgão em responder a demandas específicas do cidadão, geralmente via Serviço de Informação ao Cidadão (SIC). A **transparência ativa** é o dever de publicar proativamente informações de interesse geral, como orçamentos ou tramitação de projetos, nos portais oficiais.
+    
+    O jornalista da ALE-RO é um agente fundamental em ambas as frentes. Na transparência ativa, seu papel transcende a mera publicação de dados; ele atua como um "tradutor" do "legislês", transformando dados brutos do processo legislativo em notícias, infográficos e reportagens compreensíveis. Na passiva, embora a resposta formal seja do SIC, o jornalista deve monitorar as demandas recorrentes para identificar "gaps" de informação e convertê-los em pautas de transparência ativa.
+    
+    Portanto, o jornalista legislativo qualifica a LAI, garantindo que a informação não seja apenas disponível, mas efetivamente acessível e compreensível para o cidadão, fortalecendo o controle social e a legitimidade da Assembleia Legislativa.`
+  },
+  {
+    id: 2,
+    question: "Diferencie os conceitos de Comunicação Pública, Comunicação Governamental e Comunicação Institucional, aplicando-os ao contexto da Assembleia Legislativa.",
+    modelAnswer: `A Comunicação Institucional, a Governamental e a Pública são eixos estratégicos que, embora interligados, possuem objetivos distintos. A **Comunicação Institucional (ou Corporativa)** foca na gestão da identidade, imagem e reputação², visando fortalecer a credibilidade da ALE-RO como instituição permanente, independentemente da legislatura.
+    
+    A **Comunicação Governamental** refere-se à prestação de contas dos atos da gestão vigente. No âmbito da ALE-RO, seria a divulgação das ações e decisões da Mesa Diretora ou da Presidência, informando sobre a administração e o orçamento da Casa.
+    
+    Já a **Comunicação Pública** ³ é a mais ampla, pois é centrada no interesse público, no diálogo e no fomento à cidadania. Na ALE-RO, ela se manifesta ao explicar o impacto de uma lei na vida do cidadão e ao prover canais de debate, como as audiências públicas, cumprindo a função democrática do Legislativo de ser uma arena de debate social.`
+  },
+  {
+    id: 3,
+    question: "Um boato sobre um projeto de lei polêmico começa a circular intensamente nas redes sociais, gerando uma crise de imagem para a ALE-RO. Como assessor de imprensa, quais são as três primeiras e inadiáveis ações a serem tomadas?",
+    modelAnswer: `A gestão de crises de imagem no setor público exige agilidade, transparência e centralização para retomar o controle da narrativa e preservar a credibilidade institucional 4. A primeira ação inadiável é o **monitoramento e diagnóstico**, apurando em tempo real a origem, o volume e o sentimento do boato, ao mesmo tempo em que se verifica internamente a veracidade da informação (o status real do projeto).
+
+    A segunda ação é a **centralização da comunicação**. Deve-se formar imediatamente um comitê de crise (Comunicação, Presidência, área técnica ou autor do projeto) para definir um porta-voz único e alinhar a mensagem-chave, evitando posicionamentos conflitantes que agravem a crise.
+
+    A terceira ação é a **resposta rápida e objetiva**. A ALE-RO deve se posicionar como fonte primária da verdade, emitindo uma Nota Oficial ou um "Fact-Checking" 5 nos canais oficiais (portal e redes), esclarecendo o fato de forma didática e sem jargões. A agilidade em ocupar esse espaço informacional é vital para neutralizar a desinformação.`
+  },
+  {
+    id: 4,
+    question: "Discorra sobre o que é SEO (Search Engine Optimization) e por que essa prática é fundamental para o portal de notícias da ALE-RO, considerando os princípios da transparência.",
+    modelAnswer: `SEO (Search Engine Optimization) é um conjunto de técnicas de otimização de conteúdo digital para melhorar o posicionamento de um website nos resultados orgânicos de buscadores como o Google. No contexto da ALE-RO, o SEO transcende o marketing e se torna um instrumento estratégico de transparência ativa.
+
+    A importância do SEO para o portal da ALE-RO é garantir que o cidadão, ao pesquisar sobre um projeto de lei, um deputado ou uma audiência pública, encontre a informação oficial da Casa em primeiro lugar. Isso combate a desinformação, pois assegura que a fonte primária e correta seja mais acessível que fontes secundárias ou boatos.
+
+    Portanto, aplicar SEO (através de títulos claros, palavras-chave relevantes e URLs amigáveis) não é uma opção, mas um dever de comunicação pública. É a garantia de que o direito constitucional à informação seja efetivado na prática, assegurando que o conteúdo produzido pela ALE-RO seja, de fato, encontrável pelo cidadão.`
+  },
+  {
+    id: 5,
+    question: "A ALE-RO vai lançar um novo aplicativo para que o cidadão possa acompanhar a tramitação dos projetos de lei. Elabore um plano de comunicação de lançamento em três fases, definindo o objetivo de cada uma.",
+    modelAnswer: `O lançamento de um aplicativo de transparência legislativa deve focar em utilidade e fomento à participação cívica. O plano de comunicação deve ser estruturado em três fases estratégicas: Pré-lançamento, Lançamento (Dia D) e Sustentação.
+
+    A fase de **Pré-lançamento** (aquecimento) tem como objetivo gerar expectativa e preparar o terreno. As ações incluem a criação de peças "teaser" (ex: "Vem aí uma nova forma de fiscalizar") para as redes sociais da ALE-RO e a produção de todo o material de apoio, como o vídeo tutorial e o press-kit para a imprensa.
+    
+    A fase de **Lançamento (Dia D)** visa gerar o máximo impacto e cobertura midiática, tendo como objetivo a educação e o download. As ações incluem uma coletiva de imprensa com a Presidência, o disparo do press-release para todo o mailing e a publicação do vídeo-tutorial em todos os canais. O portal da ALE-RO deve ter um banner de destaque direcionando para as lojas de aplicativos.
+    
+    Por fim, a fase de **Sustentação (pós-lançamento)** objetiva incentivar o uso contínuo e sedimentar a ferramenta. As ações incluem uma campanha de mídia paga (anúncios digitais) segmentada para o público do estado e a criação de uma editoria de conteúdo que utilize o app como fonte (ex: "Você viu no App? O projeto X avançou"), demonstrando sua utilidade prática no dia a dia.`
+  },
+  {
+    id: 6,
+    question: "Discorra sobre o papel da comunicação pública da ALE-RO no combate à desinformação (fake news) sobre o processo legislativo. Cite duas estratégias práticas.",
+    modelAnswer: `O papel central da comunicação da ALE-RO no combate à desinformação é ser a **fonte primária, ágil e confiável de informação**. Ela deve atuar proativamente para ocupar o vácuo de informação que permite o surgimento de boatos, utilizando a transparência como sua principal ferramenta de defesa da verdade.
+
+    Duas estratégias práticas são essenciais. A primeira é o **Fact-checking (checagem de fatos) ativo**, que consiste em monitorar boatos sobre a Casa e criar uma editoria fixa (ex: "ALE-RO Explica") para desmentir ativamente, com dados e links para os documentos oficiais. A segunda é a **Educação Midiática**, produzindo conteúdo didático e permanente (infográficos, vídeos curtos) que explique o "legislês", como o trâmite de uma lei, o que é veto, ou a diferença entre projeto de lei e resolução.
+    
+    Ao adotar essas estratégias, a ALE-RO não apenas reage a boatos, mas educa proativamente o cidadão, fortalecendo o senso crítico e a confiança no processo legislativo, o que é fundamental para a democracia.`
+  },
+   {
+    id: 7,
+    question: "Diferencie \"release\" (comunicado de imprensa) de \"sugestão de pauta\", duas ferramentas essenciais da assessoria de imprensa.",
+    modelAnswer: `O "release" e a "sugestão de pauta" são ferramentas centrais da assessoria de imprensa no relacionamento com a mídia, mas possuem tempos e objetivos distintos. O **release (comunicado de imprensa)** é uma notícia pronta sobre um fato ocorrido. Ele é redigido em formato jornalístico (lead, pirâmide invertida) e enviado à imprensa para que ela o utilize como base factual ou o publique na íntegra.
+
+    A **sugestão de pauta**, por outro lado, é um "convite" para a cobertura de um fato futuro ou de um tema "frio" (atemporal). É um texto curto e atrativo que "vende" a notícia, explicando ao jornalista por que aquele evento (ex: uma audiência pública) ou tema (ex: um balanço dos projetos de lei) é relevante e merece cobertura.
+    
+    Enquanto o release informa o que já aconteceu, visando a publicação do fato, a sugestão de pauta busca despertar o interesse do jornalista para que ele próprio realize a apuração, garantindo uma cobertura mais aprofundada.`
+  },
+  {
+    id: 8,
+    question: "O Presidente da ALE-RO dará uma entrevista coletiva televisionada sobre um tema complexo. Como assessor de imprensa, quais as três principais orientações de media training você forneceria a ele?",
+    modelAnswer: `O media training é o treinamento de porta-vozes para se comunicarem eficazmente com a imprensa e, por extensão, com o público. Para uma entrevista coletiva televisionada, três orientações técnicas são inadiáveis.
+
+    Primeiro, a **definição de Mensagens-Chave (Key Messages)**. Antes da entrevista, devem ser definidas as 3 ou 4 ideias centrais que a ALE-RO precisa comunicar. O porta-voz deve focar em repeti-las, independentemente das perguntas. Segundo, a **Técnica da "Ponte" (Bridging)**: Ensiná-lo a responder objetivamente à pergunta e usar uma transição (ex: "Mas o mais importante é que...") para retornar à sua mensagem-chave.
+
+    Terceiro, a **Postura e Linguagem**. O porta-voz deve ser orientado a evitar jargões técnicos ("legislês"), usando linguagem acessível ao cidadão. Deve-se manter a calma, olhar para os jornalistas e jamais especular sobre dados que não sabe, comprometendo-se a apurá-los posteriormente.`
+  },
+  {
+    id: 9,
+    question: "A Inteligência Artificial (IA) apresenta riscos e oportunidades para a comunicação. Discorra sobre um impacto negativo (risco) e uma aplicação positiva (oportunidade) da IA na rotina da assessoria de imprensa da ALE-RO.",
+    modelAnswer: `A Inteligência Artificial impacta diretamente a produção e o consumo de informação, trazendo desafios éticos e ganhos de eficiência para a comunicação pública. O **principal risco** para a ALE-RO é a proliferação de deepfakes e desinformação sofisticada (textos e áudios falsos realistas), que podem ser usados para criar crises de imagem institucionais, exigindo um monitoramento e fact-checking muito mais robustos.
+
+    A **principal oportunidade**, por outro lado, é a **eficiência e análise de dados**. A IA pode ser usada positivamente para transcrever automaticamente horas de sessões plenárias e audiências públicas, liberando o jornalista da tarefa mecânica. Isso permite que a equipe foque na análise estratégica, na produção de reportagens aprofundadas e na identificação de tendências de debate público.
+    
+    O desafio da ALE-RO será, portanto, regulamentar o uso ético da IA, aproveitando sua eficiência operacional enquanto blinda a instituição contra os riscos de manipulação da informação.`
+  },
+  {
+    id: 10,
+    question: "Qual a importância do Manual de Redação da Presidência da República para a comunicação escrita da ALE-RO? Cite dois princípios desse manual aplicáveis aos textos do portal.",
+    modelAnswer: `O Manual de Redação da Presidência da República é a referência normativa para a comunicação oficial do Poder Público. Sua importância para a ALE-RO reside na **padronização e impessoalidade**, garantindo que a comunicação do Legislativo siga os princípios constitucionais (como o da Publicidade) e mantenha a uniformidade e a clareza exigidas de um órgão de Estado.
+
+    Dois princípios do manual são diretamente aplicáveis aos textos do portal. O primeiro é a **Clareza e Concisão**: o texto público deve ser compreendido por qualquer cidadão, evitando o excesso de jargões técnicos ("legislês") e períodos longos. O segundo é a **Formalidade e Padronização**: o uso correto dos pronomes de tratamento e a estrutura padronizada dos atos conferem seriedade e uniformidade à comunicação institucional.
+    
+    A adoção desses princípios garante que a comunicação da ALE-RO seja não apenas correta do ponto de vista gramatical, mas, acima de tudo, eficiente em seu dever de informar ao cidadão.`
+  },
+  {
+    id: 11,
+    question: "Discorra sobre a importância da comunicação interna na ALE-RO e cite duas ferramentas ou ações para promovê-la eficazmente.",
+    modelAnswer: `A comunicação interna, ou endomarketing, é um pilar estratégico de gestão fundamental para alinhar servidores e deputados aos objetivos da ALE-RO, melhorar o clima organizacional e garantir que a informação oficial chegue a eles antes que ao público externo, evitando ruídos e boatos.
+
+    Duas ações eficazes para promovê-la são: 1) A manutenção de um **Veículo Oficial Unificado** (como uma Intranet robusta ou uma Newsletter interna diária), que sirva como repositório de informações (normas, RH) e veículo para as pautas do dia. 2) A realização de **Ações de Engajamento e Valorização**, como programas de integração para novos servidores e campanhas de endomarketing que expliquem o papel de cada setor no resultado final do processo legislativo.
+    
+    Investir em comunicação interna resulta em servidores mais engajados, que se tornam os primeiros defensores da imagem institucional, otimizando a prestação de serviço ao público e fortalecendo a cultura organizacional.`
+  },
+  {
+    id: 12,
+    question: "Explique a diferença entre Identidade, Imagem e Reputação Institucional no contexto da ALE-RO.",
+    modelAnswer: `Identidade, Imagem e Reputação são conceitos centrais na gestão da comunicação corporativa, essenciais para a ALE-RO. A **Identidade** é "quem a ALE-RO é": seus valores, sua missão (legislar, fiscalizar), seus símbolos e sua cultura interna. É o que a instituição controla e define como sua essência.
+
+    A **Imagem** é "como a ALE-RO é percebida" pelo público externo (cidadão, imprensa) em um determinado momento. É uma percepção pontual e volátil, que pode ser afetada por uma crise ou uma campanha positiva (ex: a imagem após uma votação polêmica).
+    
+    A **Reputação**, por fim, é a "imagem consolidada" ao longo do tempo. É o histórico de credibilidade, confiança e transparência que a sociedade deposita na ALE-RO. Uma boa reputação, construída com consistência, é o maior ativo da instituição e ajuda a mitigar os danos de crises de imagem pontuais.`
+  },
+  {
+    id: 13,
+    question: "O que é Comunicação Integrada e por que ela é essencial para o trabalho da Diretoria de Comunicação da ALE-RO?",
+    modelAnswer: `Comunicação Integrada é a estratégia de planejar e executar todas as ações de comunicação (Publicidade, Relações Públicas, Jornalismo, Com. Interna) de forma unificada e sinérgica, garantindo consistência na mensagem.
+
+    Para a ALE-RO, que possui múltiplos canais (TV, Rádio, Portal, Redes Sociais), a integração é essencial para evitar a fragmentação da mensagem. Sem ela, a TV Assembleia pode focar em um aspecto de um projeto de lei, o site em outro, e as redes sociais em um terceiro, gerando confusão no cidadão e diluindo o impacto da comunicação.
+    
+    A integração garante que a mesma mensagem-chave seja transmitida em todas as plataformas, adaptando-se apenas a linguagem de cada veículo. Isso fortalece a imagem institucional, otimiza recursos e assegura que o cidadão receba uma informação coesa e clara sobre o trabalho do Legislativo.`
+  },
+  {
+    id: 14,
+    question: "Discorra sobre a importância da acessibilidade na comunicação pública digital. Cite três recursos de acessibilidade que devem ser implementados no portal e nas redes sociais da ALE-RO.",
+    modelAnswer: `A acessibilidade na comunicação pública digital não é uma opção, mas uma obrigação legal e um pilar da cidadania, garantindo que pessoas com deficiência (PcD) possam exercer plenamente seu direito à informação e ao controle social.
+
+    Três recursos técnicos são essenciais para o portal e redes da ALE-RO. O primeiro é o **Texto Alternativo (Alt Text)**, descrevendo todas as imagens (fotos, infográficos) para que leitores de tela possam narrá-las para pessoas cegas. O segundo é a **Legenda e Libras**: todos os vídeos das sessões, reportagens ou campanhas (na TV ou redes) devem conter legendas em português e, preferencialmente, uma janela de interpretação em Libras.
+    
+    O terceiro recurso é o **Design Acessível**: o portal da ALE-RO deve obedecer a padrões de alto contraste entre texto e fundo e permitir o redimensionamento de fontes, facilitando a leitura por pessoas com baixa visão e outros distúrbios.`
+  },
+  {
+    id: 15,
+    question: "Qual a diferença entre \"fato\" e \"opinião\" no jornalismo e por que essa distinção é crucial na cobertura das sessões plenárias da ALE-RO?",
+    modelAnswer: `No jornalismo, a distinção entre fato e opinião é um princípio ético fundamental. **Fato** é o evento concreto, objetivo e verificável (ex: "O Projeto de Lei X foi aprovado por 15 votos a 3"). **Opinião** é a interpretação, o juízo de valor sobre o fato (ex: "A aprovação do Projeto X foi uma grande vitória para o setor Y").
+
+    Na cobertura das sessões da ALE-RO, essa distinção é crucial para a credibilidade e a imparcialidade. O jornalista da Assessoria deve, prioritariamente, ater-se aos fatos: o que foi dito, o que foi votado e o trâmite regimental. A opinião (análise, crítica, elogio) deve ser sempre e claramente atribuída aos seus autores (ex: "Para o deputado Fulano, a aprovação foi..."), garantindo a impessoalidade da cobertura institucional.
+    
+    Essa prática respeita a pluralidade de vozes do parlamento e assegura que o cidadão receba a informação factual, permitindo que ele forme sua própria opinião sobre o trabalho legislativo.`
+  },
+  {
+    id: 16,
+    question: "Um veículo de imprensa solicita uma entrevista com um técnico da ALE-RO (ex: da área de Orçamento) sobre um tema complexo. O técnico não tem treinamento de mídia. Quais as duas principais ações que o assessor de imprensa deve tomar?",
+    modelAnswer: `O assessor de imprensa atua como mediador entre a fonte técnica (servidor) e o jornalista, garantindo a precisão da informação e protegendo a instituição. A primeira ação inadiável é **realizar um media training emergencial** com o técnico. O assessor deve explicar como a imprensa funciona (deadlines, edição, "o que não é dito não pode ser usado"), definir as mensagens-chave e simular possíveis perguntas.
+
+    A segunda ação é **acompanhar a entrevista**. O assessor deve estar presente para dar suporte, intervir sutilmente se o jornalista distorcer uma informação, e auxiliar o técnico a "traduzir" jargões, garantindo que a informação seja passada de forma correta e acessível, evitando que opiniões pessoais do técnico sejam confundidas com o posicionamento oficial da ALE-RO.`
+  },
+  {
+    id: 17,
+    question: "Explique a função do \"lead\" (ou \"lide\") no jornalismo e por que ele é importante na redação de notícias para o portal da ALE-RO.",
+    modelAnswer: `O "lead" (ou lide) é a abertura da notícia, geralmente o primeiro parágrafo, que cumpre a função de responder às perguntas fundamentais do jornalismo: O quê? Quem? Quando? Onde? Como? e Por quê?. É a estrutura que entrega a informação mais relevante de forma imediata.
+
+    Sua importância no portal da ALE-RO é dupla. Primeiro, ele atende ao **leitor do ambiente digital**, que é apressado e "escaneia" o texto, garantindo que a informação essencial seja absorvida rapidamente. Segundo, ele serve como uma ferramenta de **transparência e objetividade**, pois obriga o jornalista a resumir o fato (a aprovação de uma lei, a realização de uma audiência) de forma direta, facilitando a compreensão do público leigo sobre a atividade parlamentar.`
+  },
+  {
+    id: 18,
+    question: "O que é \"linguagem inclusiva\" (ou não sexista) e por que sua adoção é relevante nos textos oficiais e jornalísticos da ALE-RO?",
+    modelAnswer: `Linguagem inclusiva é a prática de comunicação que busca ativamente evitar termos que reforcem estereótipos ou excluam grupos, especialmente quanto ao gênero (ex: usar "a população" ou "cidadania" em vez de "os homens" para se referir ao todo; ou "servidores e servidoras" em vez de só "servidores").
+
+    Sua adoção pela ALE-RO é relevante por duas razões estratégicas. Primeiro, pela **Representatividade**: A Assembleia é a "Casa do Povo" e representa toda a população de Rondônia; a linguagem oficial deve refletir essa diversidade, fazendo com que todas as pessoas se sintam incluídas na comunicação.
+
+    Segundo, pela **Modernização Institucional**: O uso da linguagem inclusiva demonstra que a instituição está alinhada às evoluções sociais e comprometida com a equidade, reforçando sua imagem positiva e seu papel como um parlamento contemporâneo.`
+  },
+  {
+    id: 19,
+    question: "Quais os impactos da Inteligência Artificial (IA) generativa na ética jornalística, especificamente no contexto de uma assessoria pública como a da ALE-RO?",
+    modelAnswer: `A Inteligência Artificial generativa impõe novos e complexos desafios à ética jornalística, especialmente para uma assessoria pública que detém fé pública. O principal impacto ético diz respeito à **autenticidade e à responsabilidade**. A assessoria da ALE-RO não pode usar IA para criar imagens de eventos que não ocorreram ou para gerar discursos falsos, pois isso violaria seu compromisso primário com a verdade dos fatos.
+
+    Outro desafio ético é o **viés algorítmico**. A IA pode reproduzir preconceitos presentes nos dados em que foi treinada. O jornalista da ALE-RO deve, portanto, revisar criticamente qualquer texto gerado pela ferramenta, assegurando que ele seja imparcial e alinhado ao interesse público.
+
+    A IA deve ser usada como uma ferramenta de **assistência** (ex: transcrição), mas a apuração, a checagem e a responsabilidade editorial final devem permanecer integralmente humanas.`
+  },
+  {
+    id: 20,
+    question: "Discorra sobre a importância de um planejamento editorial para a TV Assembleia, diferenciando-o da simples cobertura factual (hard news) das sessões.",
+    modelAnswer: `A cobertura factual (hard news) das sessões é a obrigação primária da TV Assembleia, garantindo o princípio da publicidade. Contudo, o **planejamento editorial** é o que transforma o canal de um mero transmissor de eventos em um veículo de comunicação pública.
+
+    Enquanto a cobertura factual é reativa, o planejamento editorial é proativo. Ele permite a criação de uma grade programática que contextualiza o trabalho legislativo, como programas de entrevista que aprofundam os projetos de lei, reportagens especiais sobre o impacto das leis nas cidades e documentários sobre a história do legislativo rondoniense.
+    
+    Ao "traduzir" o plenário, o planejamento editorial da TV Assembleia cumpre uma função social e educativa, fomentando o controle social e aproximando o cidadão do parlamento de forma muito mais eficaz que a simples transmissão ao vivo.`
+  },
+  {
+    id: 21,
+    question: "Como o assessor de imprensa da ALE-RO deve utilizar a pesquisa de opinião pública de forma ética e estratégica?",
+    modelAnswer: `A pesquisa de opinião pública, no âmbito de uma assessoria institucional, deve ser usada como um **diagnóstico de comunicação** e não como ferramenta político-eleitoral. Seu uso ético e estratégico serve para mapear a percepção de imagem da ALE-RO e, principalmente, identificar "gaps" de informação, ou seja, o que a população não sabe sobre o Legislativo.
+
+    Estrategicamente, os dados dessa pesquisa devem pautar o planejamento da comunicação. Se a pesquisa revela que 80% da população não sabe a diferença entre um deputado estadual e um federal, ou desconhece os canais de transparência, a assessoria deve usar isso como briefing para uma campanha de educação midiática e de utilidade pública.
+    
+    O uso ético é, portanto, reverter os achados da pesquisa em ações que melhorem a transparência e a prestação de serviço de informação ao cidadão, e não em promoção individual de parlamentares.`
+  },
+  {
+    id: 22,
+    question: "Diferencie o \"Manual de Redação da Presidência da República\" do \"Código de Ética do Jornalista\". Qual a função de cada um na rotina do analista da ALE-RO?",
+    modelAnswer: `Ambos são guias essenciais, mas com naturezas distintas. O **Manual de Redação da Presidência da República** é um guia normativo de **forma e padronização**. Ele dita como escrever um ato oficial (portaria, ofício), o uso correto de pronomes de tratamento e o padrão da linguagem burocrática, visando a clareza e a uniformidade dos atos da administração pública.
+
+    O **Código de Ética do Jornalista**, por sua vez, é um guia de **conduta e princípios**. Ele dita o porquê se comunica, estabelecendo o compromisso do profissional com a verdade dos fatos, o interesse público, a oitiva de fontes diversas e a responsabilidade social da informação.
+    
+    Na rotina da ALE-RO, o jornalista usará o Manual para redigir expedientes e garantir a formalidade dos textos oficiais, e usará o Código de Ética para nortear sua apuração, produção de notícias e o relacionamento com a sociedade e demais poderes.`
+  },
+  {
+    id: 23,
+    question: "O que é \"Marketing Institucional\" e como ele se aplica a um órgão público como a ALE-RO, que não visa \"lucro\"?",
+    modelAnswer: `Diferente do marketing comercial, o Marketing Institucional não visa a venda de um produto, mas sim a construção, o fortalecimento e a gestão da **reputação** de uma organização. Em um órgão público como a ALE-RO, o objetivo não é o "lucro" financeiro, mas a **legitimidade** e a **confiança pública**.
+
+    Ele se aplica através de campanhas de comunicação que valorizam a importância do Poder Legislativo para a democracia, ações que promovem a transparência (como o lançamento de um novo portal) e campanhas de utilidade pública que associam a imagem da ALE-RO a causas sociais.
+    
+    Portanto, o Marketing Institucional na ALE-RO é uma ferramenta estratégica para demonstrar o valor público da instituição, justificar sua existência e fomentar o engajamento cívico da população de Rondônia.`
+  },
+  {
+    id: 24,
+    question: "Ao cobrir uma audiência pública na ALE-RO, quais elementos jornalísticos, além dos discursos dos deputados, o jornalista deve priorizar para gerar uma reportagem de interesse público?",
+    modelAnswer: `A cobertura de uma audiência pública não pode se resumir a transcrever discursos parlamentares. Para gerar uma reportagem de real interesse público, o jornalista da ALE-RO deve focar na essência do evento: o debate e a diversidade de vozes.
+
+    Três elementos são prioritários: 1) **A Voz da Sociedade**: As falas dos especialistas, representantes da sociedade civil e cidadãos presentes, mostrando os diferentes argumentos (prós e contras) sobre o tema. 2) **O "Porquê" da Audiência**: Explicar claramente qual projeto de lei está sendo debatido e qual o impacto prático dele na vida do cidadão (ex: na conta de luz, no transporte). 3) **Os Próximos Passos**: Informar objetivamente o que acontece depois da audiência (o projeto vai a votação? Será alterado? O relatório da comissão será...).
+    
+    Essa abordagem transforma a cobertura de um evento processual em uma notícia de cidadania, contextualizando o trabalho do parlamento.`
+  },
+  {
+    id: 25,
+    question: "Explique a importância da \"pirâmide invertida\" para a redação de notícias no portal da ALE-RO, relacionando-a com a usabilidade em ambientes digitais.",
+    modelAnswer: `A pirâmide invertida é uma técnica de redação jornalística onde a informação mais importante (o "lead") é apresentada no primeiro parágrafo, e os detalhes seguem em ordem decrescente de relevância.
+
+    No ambiente digital, como o portal da ALE-RO, a usabilidade é crucial, pois os leitores são impacientes, leem de forma não linear e "escaneiam" o texto. A pirâmide invertida é vital neste contexto porque entrega o valor principal da notícia **"acima da dobra"** (antes que o leitor precise rolar a página).
+    
+    Se o cidadão ler apenas o primeiro parágrafo de uma notícia sobre uma sessão na ALE-RO, ele já terá a informação essencial sobre o que foi decidido. Esta técnica garante a eficácia da comunicação, respeita o tempo do usuário e cumpre o dever de informar de maneira rápida e objetiva.`
+  },
+  {
+    id: 26,
+    question: "O que é \"fact-checking\" (checagem de fatos) e como a Diretoria de Comunicação da ALE-RO pode estruturar um núcleo de checagem para combater a desinformação?",
+    modelAnswer: `O Fact-checking é o processo jornalístico de verificação sistemática da veracidade de discursos públicos, postagens e boatos, comparando-os com fatos e dados oficiais, e classificando-os de forma transparente.
+
+    Para estruturar um núcleo de checagem, a ALE-RO precisaria de três pilares. O primeiro é o **Monitoramento**, com uma equipe (ou software) dedicada a "escutar" ativamente o que é dito sobre o Legislativo nas redes e na imprensa. O segundo é a **Metodologia**, definindo um fluxo de checagem que envolve buscar a fonte primária da informação (ex: o projeto de lei no sistema, os dados do orçamento no Portal da Transparência).
+    
+    O terceiro pilar é a **Publicação**. A ALE-RO deve criar um canal oficial para divulgar as checagens (uma editoria no site ou selos nas redes), de forma clara, didática e com classificações visuais (ex: "Verdadeiro", "Falso", "Impreciso"), posicionando-se como a autoridade final sobre os fatos do Legislativo.`
+  },
+  {
+    id: 27,
+    question: "Diferencie o \"plano de mídia\" de uma campanha publicitária do \"planejamento editorial\" de um portal de notícias.",
+    modelAnswer: `Embora ambos sejam ferramentas de planejamento da comunicação, o plano de mídia e o planejamento editorial têm naturezas e objetivos distintos. O **Plano de Mídia** é parte de uma campanha publicitária (ex: divulgação da "Escola do Legislativo") e envolve mídia paga. Ele define onde, quando e com qual frequência os anúncios serão veiculados (ex: 3 inserções em rádio X, 4 spots em TV Y), visando atingir um público-alvo específico.
+
+    O **Planejamento Editorial**, por outro lado, refere-se ao conteúdo orgânico (notícias) do portal da ALE-RO. Ele define as pautas que serão cobertas, as editorias (Política, Cidades, Cidadania), a frequência de publicação e o tom de voz, visando construir credibilidade e informar o público de forma contínua, sem custo de veiculação.
+    
+    Enquanto o plano de mídia compra espaço, o planejamento editorial conquista a atenção através da relevância do conteúdo jornalístico.`
+  },
+  {
+    id: 28,
+    question: "A ALE-RO produz conteúdo para TV e Rádio. Discorra brevemente sobre as especificidades da linguagem jornalística para cada um desses dois veículos.",
+    modelAnswer: `A linguagem jornalística deve se adaptar às especificidades técnicas e de consumo de cada veículo. No **Rádio**, a linguagem é ágil, direta e, acima de tudo, descritiva. Como o ouvinte não vê, o texto deve "pintar a cena" (ex: "O plenário está lotado neste momento..."), utilizando sonoras (trechos de falas) curtas e uma locução clara para reter a atenção, que é volátil.
+
+    Na **TV**, a imagem é a notícia. O texto (locução) deve ser mais curto e complementar o que a imagem (vídeo) já mostra, evitando a redundância. A TV permite maior profundidade visual (uso de infográficos, entrevistas mais longas), mas exige uma narrativa ágil (edição) para prender o espectador.
+    
+    Ambos exigem clareza e objetividade, mas o rádio foca na descrição auditiva e a TV na sinergia entre som e imagem para contar a história.`
+  },
+  {
+    id: 29,
+    question: "Um deputado da ALE-RO faz uma postagem em sua rede social pessoal com informações factualmente incorretas sobre um projeto de lei em tramitação. Qual deve ser a postura da assessoria de imprensa institucional da ALE-RO?",
+    modelAnswer: `A assessoria de imprensa institucional da ALE-RO deve zelar pela informação oficial da Casa, agindo com **imessoalidade, ética e equidistância**, mesmo quando a desinformação parte de um membro do parlamento.
+
+    A postura correta não é o confronto direto com o parlamentar, mas a **defesa ativa da verdade dos fatos**. A assessoria deve publicar, proativamente, em seus canais oficiais (portal e redes) uma matéria didática ou um "Fact-Checking" que explique o real teor e status daquele projeto de lei, usando dados e links do sistema legislativo como prova.
+    
+    Ao agir dessa forma, a comunicação institucional cumpre seu dever ético de informar corretamente o cidadão, reforçando os canais da ALE-RO como a fonte primária e confiável sobre o processo legislativo, independentemente de disputas políticas individuais.`
+  },
+  {
+    id: 30,
+    question: "Explique a importância do timing (agilidade) na assessoria de imprensa de um órgão público, especialmente em situações de crise.",
+    modelAnswer: `Na comunicação contemporânea, quem fala primeiro e melhor, estabelece a narrativa. Em um órgão público como a ALE-RO, o **timing (agilidade)** é crucial para garantir a **transparência** e manter a **credibilidade institucional**.
+
+    Em situações de crise, a agilidade é ainda mais vital. A imprensa e a sociedade não esperam; se a ALE-RO demorar a se posicionar sobre um fato negativo, ela cria um "vácuo de informação" que será inevitavelmente preenchido por especulações, boatos ou fontes desinformadas, ampliando o dano à reputação.
+    
+    Responder rapidamente, mesmo que seja uma nota inicial informando que o fato está sendo apurado, demonstra responsabilidade, controle da situação e respeito ao público. O **timing** é, portanto, uma ferramenta estratégica de gestão de crises.`
+  },
+];
