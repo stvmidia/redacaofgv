@@ -36,7 +36,7 @@
     <div id="root"></div>
     
     <script type="text/babel">
-        const { useState, useEffect } = React;
+        const { useState, useEffect, useRef } = React;
 
         // --- From constants/essays.ts ---
         const essays = [
@@ -316,6 +316,13 @@
             <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l9-9 9 9M5 10v10a1 1 0 001 1h3V16a1 1 0 011-1h4a1 1 0 011 1v5h3a1 1 0 001-1V10L12 3 5 10z" />
           </svg>
         );
+        
+        const GearIcon = () => (
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.096 2.572-1.065z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+        );
 
         const ChevronLeftIcon = () => (
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -439,6 +446,8 @@
         const App = () => {
           const [currentIndex, setCurrentIndex] = useState(0);
           const [fontSize, setFontSize] = useState('md');
+          const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+          const settingsRef = useRef(null);
           const essayContainerId = 'essay-content-area';
 
           const handleNext = () => {
@@ -470,6 +479,19 @@
             root.classList.add(`font-size-${fontSize}`);
           }, [fontSize]);
 
+          useEffect(() => {
+            const handleClickOutside = (event) => {
+                if (settingsRef.current && !settingsRef.current.contains(event.target)) {
+                    setIsSettingsOpen(false);
+                }
+            };
+
+            document.addEventListener('mousedown', handleClickOutside);
+            return () => {
+                document.removeEventListener('mousedown', handleClickOutside);
+            };
+        }, [settingsRef]);
+
 
           return (
             <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col items-center">
@@ -489,8 +511,29 @@
                 <p className="text-slate-500 mt-1 sm:mt-2 text-sm sm:text-base">
                   Questões discursivas para o concurso da ALE-RO
                 </p>
-                <div className="absolute top-4 right-4 sm:top-1/2 sm:-translate-y-1/2 sm:right-6">
-                    <FontSizeSwitcher currentSize={fontSize} onSizeChange={setFontSize} />
+                <div className="absolute top-1/2 -translate-y-1/2 right-4 sm:right-6">
+                    <div ref={settingsRef} className="relative">
+                        <button
+                            onClick={() => setIsSettingsOpen(prev => !prev)}
+                            className="p-2 rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+                            aria-label="Configurações de fonte"
+                            aria-haspopup="true"
+                            aria-expanded={isSettingsOpen}
+                        >
+                            <GearIcon />
+                        </button>
+                        {isSettingsOpen && (
+                            <div className="absolute top-full right-0 mt-2 w-max bg-white rounded-xl shadow-lg border border-slate-200 p-2 z-10">
+                                <FontSizeSwitcher 
+                                    currentSize={fontSize} 
+                                    onSizeChange={(size) => {
+                                        setFontSize(size);
+                                        setIsSettingsOpen(false);
+                                    }} 
+                                />
+                            </div>
+                        )}
+                    </div>
                 </div>
               </header>
               
