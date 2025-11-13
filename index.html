@@ -112,7 +112,7 @@
 
             Primeiro, a **definição de Mensagens-Chave (Key Messages)**. Antes da entrevista, devem ser definidas as 3 ou 4 ideias centrais que a ALE-RO precisa comunicar. O porta-voz deve focar em repeti-las, independentemente das perguntas. Segundo, a **Técnica da "Ponte" (Bridging)**: Ensiná-lo a responder objetivamente à pergunta e usar uma transição (ex: "Mas o mais importante é que...") para retornar à sua mensagem-chave.
 
-            Terceiro, a **Postura e Linguagem**. O porta-voz deve ser orientado a evitar jargões técnicos ("legislês"), usando linguagem acessível ao cidadão. Deve-se manter a calma, olhar para os jornalistas e jamais especular sobre dados que não sabe, comprometendo-se a apurá-los posteriormente.`
+            Terceiro, a **Postura e Linguagem**. O porta-voz deve ser orientado a evitar jargões técnicos ("legislês"), usando linguagem acessível ao cidadão. Deve-se manter a calma, olhar para os journalists e jamais especular sobre dados que não sabe, comprometendo-se a apurá-los posteriormente.`
           },
           {
             id: 9,
@@ -311,6 +311,12 @@
         ];
 
         // --- From components/icons.tsx ---
+        const HomeIcon = () => (
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l9-9 9 9M5 10v10a1 1 0 001 1h3V16a1 1 0 011-1h4a1 1 0 011 1v5h3a1 1 0 001-1V10L12 3 5 10z" />
+          </svg>
+        );
+
         const ChevronLeftIcon = () => (
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
@@ -446,6 +452,10 @@
               setCurrentIndex(currentIndex - 1);
             }
           };
+
+          const handleHome = () => {
+            setCurrentIndex(0);
+          };
           
           useEffect(() => {
             const container = document.getElementById(essayContainerId);
@@ -464,6 +474,15 @@
           return (
             <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col items-center">
               <header className="w-full text-center py-6 sm:py-8 px-4 bg-white border-b border-slate-200 relative">
+                <div className="absolute top-1/2 -translate-y-1/2 left-4 sm:left-6">
+                    <button
+                      onClick={handleHome}
+                      className="p-2 rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+                      aria-label="Voltar ao início"
+                    >
+                      <HomeIcon />
+                    </button>
+                </div>
                 <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
                   Modelos de Redação FGV
                 </h1>
